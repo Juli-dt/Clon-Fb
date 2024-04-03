@@ -1,0 +1,11 @@
+body {
+    size: 100%;
+    padding: 0%;
+}
+
+main {
+    display: inline-block;
+    height: 931px;
+    width: 100%;
+    background-color: rgb(240, 242, 245);
+}
