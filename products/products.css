@@ -26,31 +26,22 @@ nav ul li a {
     text-decoration: none;
 }
 
-.banner {
-    background-image: url('banner.jpg');
-    background-size: cover;
-    color: #fff;
-    padding: 50px 20px;
-    text-align: center;
-}
-
-.destacados {
-    padding: 20px;
-    text-align: center;
-}
-
-.destacados .producto {
-    display: inline-block;
-    margin: 0 20px;
-}
-
-.destacados .producto img {
-    max-width: 100%;
-}
-
 footer {
     background-color: #333;
     color: #fff;
     text-align: center;
     padding: 20px;
+}
+.productos {
+    padding: 20px;
+    text-align: center;
+}
+
+.productos .producto {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.productos .producto img {
+    max-width: 100%;
 }
