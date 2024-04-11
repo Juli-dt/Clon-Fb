@@ -3,6 +3,13 @@ body {
     margin: 0;
     padding: 0;
 }
+* {
+    /* Estilos que se aplicarán a todos los elementos */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 img {
     width: 284px;
     height: 284px;
@@ -12,13 +19,14 @@ img {
     color: aquamarine;
 }
 
-.productos .producto:last-child{
-    color:red
+.productos .producto:last-child {
+    color: red
 }
 
-.productos .producto:first-child {
-    color: yellow
+.productos .producto:first-of-type {
+    color: rgb(0, 13, 255);
 }
+
 .productos .producto:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
@@ -40,20 +48,16 @@ nav ul li {
     margin-right: 20px;
 }
 
-nav ul li a:visited{
+nav ul li a:visited {
     color: red;
 }
 
-nav ul li a:active{
+nav ul li a:active {
     color: white;
 }
 
-#footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-}
+
+
 .productos {
     padding: 20px;
     text-align: center;
@@ -61,7 +65,7 @@ nav ul li a:active{
 
 .productos .producto {
     display: inline-block;
-    margin: 10px 20px ;
+    margin: 10px 20px;
 }
 
 .productos .producto img {
